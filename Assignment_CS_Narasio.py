@@ -50,4 +50,4 @@ finally:
         print("PostgreSQL connection is closed")
 
 # convert file to csv
-df.to_csv(r'C:\Users\valou\Desktop\CS-Fundamental-DS\Assignment-result.csv', index=False)
+df.to_csv(r'C:\Users\valou\Desktop\CS-Fundamental-DS\Pelukis_result.csv', index=False)
