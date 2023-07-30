@@ -1,0 +1,18 @@
+def IMT(berat, tinggi):
+  bmi= berat/(tinggi**2)
+
+  if (bmi>= 25):
+    status='obesitas'
+  elif (23<=bmi<25):
+    status = 'overweight'
+  elif (18.5<=bmi<23):
+    status = 'normal'
+  elif (bmi<18.5):
+    status = 'underweight'
+  return status
+
+berat_rudi = 75
+tinggi_rudi = 175
+
+badan_rudi= IMT(berat_rudi, tinggi_rudi)
+print(f'Kondisi tubuh anda {badan_rudi}')
