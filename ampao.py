@@ -1,4 +1,4 @@
-u = 16
-k = 3
+u = 17
+k = 2
 ampao = u**(1/2)
 print(ampao)
